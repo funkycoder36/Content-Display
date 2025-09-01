@@ -5,9 +5,26 @@
    <title>Image Section Layout</title>
    <style>
     body {
-        margin: 0;
-        font-family: Arial, sans-serif;
-    }
+          margin: 0;
+          font-family: Arial, sans-serif;
+     }
+    .navbar {
+                background-color: black;
+                overflow: hidden;
+     }
+    .navbar a {
+                float: left;
+                display: block;
+                color: #59f47b;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+                font-size: 18px;
+     }
+    .navbar a.active {
+                background-color: #d5ff57;
+                color:black;
+     }
     .hero {
         background-image: url('PIZZZZZA.jpeg');
         height: 400px;
@@ -45,11 +62,15 @@
    </style>
 </head>
     <body>
+        <div class="navbar">
+            <a class="active" href="Project.html">Home</a>
+            <a href="About us.html">How To Make One</a>
+        </div>
         <div class="hero">
             <div class="hero-text"></div>
         </div>
         <div class="section">
-            <h2>Section Two</h2>
+            <h2>Pizza</h2>
             <p>
                 Pizza is a food loved by many people.It was invented or created in Italy.The pizza u eat today is quite different from the pizza back then. Now there are thousands of flavours and hundreds of brands.
             </p>
